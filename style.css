@@ -3,3 +3,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+.page1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:  0 130px;
+    padding-top: 90px ;
+}
+.page1__header{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 25px;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+
+   color: #000000;
+
+}
+.page1__ul{
+    display: flex;
+    margin-left: 720px;
+}
+.page1__li{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #000000;
+margin: 0 130px;
+}
